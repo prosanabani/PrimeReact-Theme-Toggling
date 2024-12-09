@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      primeicons:
+        specifier: ^7.0.0
+        version: 7.0.0
       primereact:
         specifier: ^10.8.5
         version: 10.8.5(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -918,6 +921,9 @@ packages:
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+
+  primeicons@7.0.0:
+    resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
 
   primereact@10.8.5:
     resolution: {integrity: sha512-B1LeJdNGGAB8P1VRJE0TDYz6rZSDwxE7Ft8PLFjRYLO44+mIJNDsLYSB56LRJOoqUNRhQrRIe/5ctS5eyQAzwQ==}
@@ -1931,6 +1937,8 @@ snapshots:
       source-map-js: 1.2.1
 
   prelude-ls@1.2.1: {}
+
+  primeicons@7.0.0: {}
 
   primereact@10.8.5(@types/react@18.3.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
