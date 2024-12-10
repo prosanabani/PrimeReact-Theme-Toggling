@@ -2,15 +2,21 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import { PrimeReactProvider } from 'primereact/api';
 import 'primereact/resources/primereact.css';
 import 'primeicons/primeicons.css';
+import { type APIOptions, PrimeReactProvider } from 'primereact/api';
+
+
+const value: Partial<APIOptions> = {
+  appendTo: 'self',
+  ripple: true,
+};
 
 
 createRoot(document.getElementById('root')!).render(
-  <PrimeReactProvider>
+  <PrimeReactProvider value={value}>
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
   </PrimeReactProvider>
 )
