@@ -1,4 +1,9 @@
-# 🌟 PrimeReact Theme Toggling Project
+# 🌟 PrimeReact Theme Toggling 
+
+[![GitHub Stars](https://img.shields.io/github/stars/prosanabani/PrimeReact-Theme-Toggling?style=social)](https://github.com/prosanabani/PrimeReact-Theme-Toggling/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/prosanabani/PrimeReact-Theme-Toggling?style=social)](https://github.com/prosanabani/PrimeReact-Theme-Toggling/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/prosanabani/PrimeReact-Theme-Toggling)](https://github.com/prosanabani/PrimeReact-Theme-Toggling/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/prosanabani/PrimeReact-Theme-Toggling)](https://github.com/prosanabani/PrimeReact-Theme-Toggling/commits)
 
 Elevate your PrimeReact application with dynamic theme management! Effortlessly toggle between themes, support system preferences, and ensure a personalized user experience—all while maintaining top-notch performance.
 
