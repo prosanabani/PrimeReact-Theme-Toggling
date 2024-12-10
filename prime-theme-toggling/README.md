@@ -1,50 +1,99 @@
-# React + TypeScript + Vite
+# 🌟 PrimeReact Theme Toggling Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Elevate your PrimeReact application with dynamic theme management! Effortlessly toggle between themes, support system preferences, and ensure a personalized user experience—all while maintaining top-notch performance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 **Features** 
 
-## Expanding the ESLint configuration
+- **🌈 Dynamic Theme Switching**: Instantly switch between themes at runtime without hassle.  
+- **🌓 System Theme Support**: Automatically adapts to the system’s light or dark mode.  
+- **💾 Local Storage Persistence**: Retains the user’s theme preference across sessions.  
+- **🎨 Customizable Themes**: Add your own themes to create a unique and tailored experience.  
+- **⚡ Performance-Optimized**: Efficiently manages styles without requiring app reloads.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 📂 **Project Structure**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+A clean and modular design for seamless development:
+
+- **`src/components`**: Houses reusable components, including the core theme toggle logic.  
+- **`src/hooks`**: Custom hooks for managing application state and theme logic.  
+- **`src/utils`**: Helper functions for theme operations and utilities.  
+- **`public/`**: Serves static theme CSS files for quick and easy access.  
+
+---
+
+💡 **Make your PrimeReact project stand out with elegant, effortless theme management!**
+
+## 🚀 How to Use
+
+### 1️⃣ Clone the Repository
+Start by cloning the repository to your local machine:
+
+```bash
+git clone https://github.com/prosanabani/prime-react-theme-toggle.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 2️⃣ Navigate to the Project Directory
+Use the following command to move into the project folder:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+cd prime-react-theme-toggle 
 ```
+
+### 3️⃣ Install Dependencies and Start the Development Server
+
+#### Install Required Packages
+Run the following command to install all project dependencies:
+
+```bash
+# Using pnpm (preferred)
+pnpm install
+
+# Alternatively, using npm
+npm install
+```
+
+#### Start the Development Server
+After the installation, launch the development server:
+
+```bash
+# Using pnpm (preferred)
+pnpm dev
+
+# Or, if you prefer npm
+npm dev
+```
+
+
+
+---
+
+## ⭐ Contribute
+
+If you find this project helpful, please **leave a star ⭐ on the repository**. Contributions are welcome! Feel free to open an issue or submit a pull request to improve this project.
+
+---
+
+## 🔗 Links
+
+- [PrimeReact Documentation](https://www.primereact.org/themes)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📧 Contact
+
+For questions or support, please feel free to reach out via [GitHub Issues](https://github.com/prosanabani/prime-react-theme-toggle/issues).
+
+---
+
+## 🌟 **Thank you for using PrimeReact Theme Toggling!**
